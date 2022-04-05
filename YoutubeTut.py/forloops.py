@@ -106,4 +106,69 @@ for number in numbers:
         max = number
 print(max)
 
+"""
+
+2D Lists
+
+"""
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+print(matrix[0][1])
+
+for row in matrix:
+    for item in row:
+        print(item)
+
+numbers = [5, 2, 1, 7, 4]
+numbers.append(20)
+print(numbers)
+numbers.insert(0, 10)
+print(numbers)
+
+
+"""
+This is how to remove duplicates in a list
+
+"""
+digits = [8, 8, 3 , 6, 12, 20, 33, 12, 9]
+uniques = []
+for number in digits:
+    if number not in uniques:
+        uniques.append(number)
+print(uniques)
+
+"""
+
+Tuples (Lists that cannot be modified or are immutabale.
+To use this, place your list in parentheses instead of brackets. You will notice that you will only be able to use two methods with this, count and index. Count returns the number of occurances, 
+and index returns its place in the list, or tuple.
+
+"""
+
+numbers = (1, 2, 3)
+
+"""
+
+Unpacking
+
+"""
+
+coordinates = (1, 2, 3)
+x = coordinates[0]
+y = coordinates[1]
+z = coordinates[2]
+
+x, y, z = coordinates
+
+"""
+
+Python will take each variable and assign the number to it sequentially inside the tuple. So, Line 165 is the same as lines 161 - 163 just more concise. This is called unpacking and its is not limited to 
+tuples, it can be used with regular lists (square brackets) as well.
+
+"""
+
 
