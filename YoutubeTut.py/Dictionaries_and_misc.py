@@ -13,7 +13,7 @@ customer = {
 
 }
 print(customer["name"])
-print(customer.get("birthdate", "Jan 1 1980"))
+print(customer.get("birthdate", "Oct 29 1990"))
 
 phone = input("Phone: ")
 digits_mapping = {
@@ -28,5 +28,94 @@ for character in phone:
     output += digits_mapping.get(character, "?!") + " "
 
 print(output)
+
+"""
+
+Emoji Converter
+
+"""
+
+message = input(">")
+words = message.split(' ')
+print(words)
+
+message = input(">")
+words = message.split(' ')
+emojis = {
+    ":)": "😂",
+    ":(": "😒"
+}
+output = ""
+for word in words:
+    output += emojis.get(word, word) + " "
+print(output)
+
+
+
+"""
+
+Functions
+
+"""
+
+def greet_user():
+    print("Hit there!")
+    print('Welcome aboard!')
+
+print("Start")
+greet_user()
+print("Finish")
+
+"""
+
+Parameters
+
+"""
+def greet_user(name):
+    print("Hi there!")
+    print('Welcome aboard!')
+
+print("Start")
+greet_user("")
+print("Finish")
+
+def greet_user(name):
+    print(f'Hi {name}!')
+    print('Welcome aboard!')
+
+print("Start")
+greet_user("Jonathan")
+print("Finish")
+
+def greet_user(name):
+    print(f'Hi {name}!')
+    print('Welcome aboard!')
+
+print("Start")
+greet_user("Jonathan")
+greet_user("Charday")
+print("Finish")
+
+def greet_user(first_name, last_name):
+    print(f'Hi {first_name} {last_name}!')
+    print('Welcome aboard!')
+
+print("Start")
+greet_user("Jonathan")
+print("Finish")
+
+
+
+
+"""
+
+Keyword Arguments
+
+"""
+
+
+
+
+
 
 
