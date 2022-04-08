@@ -113,6 +113,58 @@ Keyword Arguments
 
 """
 
+def greetings(first, last):
+    print(f'Hi {first} {last}!')
+    print('Welcome!')
+
+print("Start")
+greetings(last = "Hubbard", first = "Jonathan")
+calc_cost(total = 50, shipping = 5, discount = 0.1)
+print("Done")
+
+
+
+
+
+"""
+
+Return Statements
+
+"""
+
+def square(number):
+    return number * number
+
+
+result = square(3)
+print(result)
+
+
+def square(number):
+    return number * number
+
+
+print(square(3))
+
+
+
+
+def emoji_converter(message):
+    words = message.split(' ')
+    emojis = {
+        ":)": "😂",
+        ":(": "😒"
+}
+    output = ""
+    for word in words:
+        output += emojis.get(word, word) + " "
+    return output
+
+message = input(">")
+print(emoji_converter(message))
+
+
+
 
 
 
