@@ -1,0 +1,15 @@
+Steps in machine learning:
+
+1. Imprort the data
+2. Clean the data
+3. Split the data into Training/Test sets
+4. Create a model
+5. Train the model
+6. Make Predictions
+7. Evaluate Predictions and Improve
+
+Libraries Needed:
+Numpy - Multi-dimensional array
+Pandas - data analysis library
+MatPlotLib - 2D library for creating graphs and plots
+Scikit-Learn - Provides common algorithms
