@@ -13,3 +13,7 @@ Numpy - Multi-dimensional array
 Pandas - data analysis library
 MatPlotLib - 2D library for creating graphs and plots
 Scikit-Learn - Provides common algorithms
+
+
+Jupyter Notebook extension is what you will use for machine learning.
+Kaggle.com is what we can use to form data sets. You'll download whichever data set you need.
