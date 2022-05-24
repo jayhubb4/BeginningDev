@@ -1,0 +1,8 @@
+<!DOCTYPE html> shows what version of html you are running
+<h1> the 'h' stands for heading and the number 1 stands for the largest possible heading 
+The image or <img> has a few required attributes just like lang = "eng"
+    Also for the image attribute, you have to specify where on your PC the file is located. So, if possible, place a local copy of an image inside thee folder where your repo is. And
+    HTML requires that an alternative text be written if the image cannot be shown like "alt="Cat". To change the dimensions of an image, specify it in the code.
+    There is no closing tag needed like the others. 
+<a href = "" The 'a' specifies anchor which means it's seating an sttribute and href stands for hyperlink reference. You can link to an actual webpage or a file such as your image by 
+using chevelless.html for example.
