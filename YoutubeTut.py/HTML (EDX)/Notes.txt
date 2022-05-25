@@ -6,3 +6,20 @@ The image or <img> has a few required attributes just like lang = "eng"
     There is no closing tag needed like the others. 
 <a href = "" The 'a' specifies anchor which means it's seating an sttribute and href stands for hyperlink reference. You can link to an actual webpage or a file such as your image by 
 using chevelless.html for example.
+If you are building a webpage and you want to have users type in a password, if you simply use the 'type="password"' attribute, then the interpreter will know not to display the 
+user's password onscreen.
+Css works inside of html, meaning in the same logic or code you write for html, you CAN use CSS's "properties" (like HTML's attributes). These properties are colors, transitions, etc.
+    See style.html for the example on how to write this.
+        You can also create a .css file to apply properties to multiple webpages. This file, however, cannot be opened as a webpage like you could a an HTML file.
+    You would need to link this .css file to your html file.
+        See style.html and styles.css
+the "<div>" attribute in HTML is simply one that places conent in sections of a page. Organization.
+'Padding' is space for elements
+'Margin' will move the entire element you are constructing and add space around the element and keep spacing for other nearby elements.
+Css can change fonts as well. when using 'font-family' use commas to separate and specify different fonts for backup fonts just in case a user's web browser doesn't support the
+font you've listed.
+    'font-weight' specifies boldness maybe even italic.
+Borders can be specified like this for example:
+    border: 3px solid black;
+
+    
