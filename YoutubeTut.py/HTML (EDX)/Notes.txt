@@ -21,5 +21,24 @@ font you've listed.
     'font-weight' specifies boldness maybe even italic.
 Borders can be specified like this for example:
     border: 3px solid black;
+AN 'id' attribute means giving something a unique name kind of like creating a variable. And to avoid having to constantly create variables, you create a 'class'.
+    to call an id you would use the # sign.
+CSS specificities rules in order are inline, id, class, type. So if you call two or more of these, then whichever takes higher precedence or which is higher in hierarchy will be what
+action is taken, regardless of what order it is written.
+This code:
+     <title>Hello</title>
+        <style>
+            ul > li {
+                color: blue;
+            }
+        </style>
 
-    
+        means that only the list items or "children" or 'descendants' of unordered lists will be blue. 'Direct children only' is denoted by the greater than symbol. If there 
+        is a UL that immediately contains an LI within it, then I would like for that to be colored blue.
+        If there was no greater than symbol, then all descending elements would be affected.
+An 'a' means anchor tag.
+a[href="https://facebook.com"] {
+                color: red;
+            }
+        Only what's inside the square brackets will be changed to the color red.
+
