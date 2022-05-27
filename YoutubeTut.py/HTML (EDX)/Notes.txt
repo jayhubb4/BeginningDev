@@ -41,4 +41,13 @@ a[href="https://facebook.com"] {
                 color: red;
             }
         Only what's inside the square brackets will be changed to the color red.
+Responsive Design: Adapt webpages to tablets and phones
+    viewport - visual part of the screen 
+        this linbe of code <meta name="viewport" content="width=device-width, initial-scale=1.0"> can format any webpage to any device screen size    
+    media queries - 
+        Media types: print, screen, etc
+        Media Features: height, width, orientation, etc
+        The syntax for this begins always with @ symbol
+    flexbox
+    grids
 
