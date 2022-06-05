@@ -54,3 +54,8 @@ Responsive Design: Adapt webpages to tablets and phones
 Bootstrap link 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         This needs top be included under title under head.
+
+To reference a link in css for images (for example) and it's in a folder that's inside your root folder, you'll need a dot (.) for however many foldsers it is back.
+    For example, the folder "eduford_image" is inside my folder "Website_Building" and to reference it, it looks like this
+        './eduford_img/banner.png'
+
