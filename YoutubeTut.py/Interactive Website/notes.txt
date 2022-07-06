@@ -1,0 +1,16 @@
+    <div class="row">
+        <div>
+            <div class="content">
+                <span><img src="./the-himalaya-img/images/location.png">The Himalayas, India</span>
+                <h1>The Himalayas</h1>
+                <p>You can get more details about the Himalays by exploring our official website with your mobile phone</p>
+            </div>
+        </div>
+        <div>
+            <div class="info">
+                <span><img src="./the-himalaya-img/images/sun.png">23 Degrees Fahrenheit</span>
+                <span><img src="./the-himalaya-img/images/location.png">Distance: 215m</span>
+                <span><img src="./the-himalaya-img/images/duration.png">Duration: 24HRS</span>
+            </div>
+        </div>
+    </div>
