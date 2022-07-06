@@ -107,7 +107,7 @@ nav ul li a{
     top: 5px;
     left: -30px;
 }
-.arrow{
+.arrow1{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -116,7 +116,21 @@ nav ul li a{
     width: 25%;
     left: 12.5%;
 }
-.arrow img{
+.arrow1 img{
+    width: 20%;
+    cursor: pointer;
+    justify-content: space-between 300px;
+}
+.arrow2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 60px;
+    width: 25%;
+    right: -15%;
+}
+.arrow2 img{
     width: 20%;
     cursor: pointer;
 }
