@@ -26,9 +26,21 @@
         </nav>
 <div class="logo-animation">
     <h1>K's Kitchen</h1>
-    <img src="./Pictures/K's.mp4">
         <a href="" class="hero-btn">Visit Us To Know More</a>
 </div>
+
+<video autoplay muted loop id="video"></video>
+
+<script>
+
+function getRndInteger(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) ) + min;
+      }
+var video = document.getElementById("video");
+video.setAttribute('src', getRndInteger(1,2) + '.mov');
+video.load();
+
+</script>
 
 
 </section>
