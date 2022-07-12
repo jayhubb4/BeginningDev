@@ -1,0 +1,1 @@
+In case you log off and commit mid server- run, remember to start the server with the command npm start
